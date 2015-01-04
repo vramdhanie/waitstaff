@@ -1,0 +1,112 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+}
+*{
+    box-sizing: content-box;
+}
+.container {
+    width: 90%;
+    height: 100% !important;
+    margin: 10px auto;
+    padding:20px;
+    box-shadow: 2px 0px 3px #AAAAAA;
+}
+.heading {
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto;
+}
+.left-col {
+    width:48%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 90%;
+}
+
+.right-col {
+    width:48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box {
+    border:none;
+    width:80%;
+    margin: 10px auto;
+    background-color: #BCE0F2;
+    box-shadow: 2px 2px 1px #AAAAAA;
+    min-height: 90%;
+}
+
+.box-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding:10px;
+    box-shadow: 0px 2px 1px #B0D2E3;
+    color:#6D828C;
+}
+
+.box-content {
+    padding:15px;
+    
+}
+
+label{
+    color:#999999;
+    font-weight: bold;
+    font-size: 0.9em;
+    width:40%;
+    display: inline-block;
+}
+
+.label{
+    color:#999999;
+    font-weight: bold;
+    font-size: 0.9em;
+    width:40%;
+    display: inline-block;
+}
+
+.value{
+    color:#666666;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+.input{
+    margin-top:10px;
+}
+
+.button {
+    width:100px;
+    color:#FFFFFF;
+    background-color: #314FD1;
+    padding:5px;
+    border: none;
+    box-shadow: 2px 3px 2px #AAAAAA; 
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 1px 2px 1px #888888;
+    background-color: #259C6F;
+}
+
+.center {
+    text-align: center;
+}
+hr{
+    width:90%;
+    margin:10px auto;
+    border:none;
+    background-color: #B0D2E3;
+}
