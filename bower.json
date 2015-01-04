@@ -1,0 +1,25 @@
+{
+  "name": "waitstaff",
+  "version": "0.0.1",
+  "authors": [
+    "Vincent Ramdhanie <vramdhanie@gmail.com>"
+  ],
+  "description": "Tip calculator for service staff",
+  "main": "index.html",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "vramdhanie.github.io/waitstaff",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.8"
+  }
+}
