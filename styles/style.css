@@ -110,3 +110,9 @@ hr{
     border:none;
     background-color: #B0D2E3;
 }
+
+.error{
+    color:#860000;
+    font-size: 0.8em;
+    font-weight: bold;
+}
